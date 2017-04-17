@@ -1,0 +1,32 @@
+{
+  "name": "sitecore-webforms-for-marketers-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoen1x84/Sitecore-webforms-for-marketers-helper.git"
+  },
+  "keywords": [
+    "sitecore",
+    "webforms",
+    "for",
+    "marketers"
+  ],
+  "author": "Matthew Neil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phoen1x84/Sitecore-webforms-for-marketers-helper/issues"
+  },
+  "homepage": "https://github.com/Phoen1x84/Sitecore-webforms-for-marketers-helper#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}
