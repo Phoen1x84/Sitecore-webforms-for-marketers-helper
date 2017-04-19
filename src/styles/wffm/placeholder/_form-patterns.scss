@@ -1,0 +1,72 @@
+/*
+  add base styling to each of these placeholder
+  use the @extend sass method to extend the wffm selectors
+  to the common styles to reduce repetition of css properties
+*/
+
+%validation-summary {
+
+}
+
+%required-field {
+
+}
+
+%fieldset {
+
+}
+
+%legend {
+
+}
+
+%label {
+
+}
+
+%input-field {
+
+}
+
+%select {
+
+}
+
+%textarea {
+
+}
+
+/*
+  ~ label selector added to allow custom radio and checkbox styling
+  these properties can be removed if not required,
+*/
+%radio-button {
+  input {
+    &[type="radio"] {
+      ~ label {
+      }
+
+      &:checked {
+        ~ label {
+
+        }
+      }
+    }
+  }
+}
+
+%checkbox {
+  input {
+    &[type="checkbox"] {
+      ~ label {
+
+      }
+
+      &:checked {
+        ~ label {
+
+        }
+      }
+    }
+  }
+}
