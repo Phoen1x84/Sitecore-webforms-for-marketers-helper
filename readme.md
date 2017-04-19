@@ -10,7 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Visual Studio 2015 solution setup with a Sitecore project on your local machine
 
-* Install Sitecore on your local machine and download and install the [compatible version](https://kb.sitecore.net/articles/779556) of Webforms for Markerters for you instance of Sitecore (this will install to your wwwroot directory). To help speed up this process I recommend using [Sitecore Instance Manager (SIM)](https://github.com/sitecore/sitecore-instance-manager), this will get you up and running with Sitecore in no time.
+* Install Sitecore on your local machine and download and install the [compatible version](https://kb.sitecore.net/articles/779556) of Webforms for Markerters for your instance of Sitecore (this will install to your wwwroot directory). To help speed up this process I recommend using [Sitecore Instance Manager (SIM)](https://github.com/sitecore/sitecore-instance-manager), this will get you up and running with Sitecore in no time.
+
+* [SQLExpress 2016](https://www.microsoft.com/en-gb/sql-server/sql-server-editions-express)
+
+* [MongoDB](https://www.mongodb.com/) - You can install this using SIM
 
 * Latest version of [node.js](https://nodejs.org/en/)
 
