@@ -1,4 +1,4 @@
-# Sitecore Webforms for Marketers Helper
+# Sitecore Webforms for Marketers Front-End Helper
 
 This is intended to provide Front-End developers with base project that helps increase productivity for styling Webforms for Marketers by providing a modular preprocessor setup with all the CSS classes for each field type.
 
@@ -120,9 +120,22 @@ The main sass file that is compiled
 /* custom wffm styles end */
 ```
 
-## Deployment
+### Placeholder Folder
 
-TODO
+Is intended to store all form styles where possible and use the SASS ```scss @extend``` method inside the WFFM partial files to keep the code DRY. This is a method I've found works best for me and reduced the compiled file size significantly. If you'd prefer to use a different method feel free to do so.
+
+```scss
+// _form-patterns partial
+%label {
+  color: #222;
+  margin: 10px 0;
+}
+
+// _single-line-text partial
+.scfSingleLineTextLabel {
+  @extend %label;
+}
+```
 
 ## Built With
 * [sass](http://sass-lang.com/) - The preprocessor used
