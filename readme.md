@@ -122,7 +122,9 @@ The main sass file that is compiled
 
 ### Placeholder Folder
 
-Is intended to store all form styles where possible and use the SASS ```scss @extend``` method inside the WFFM partial files to keep the code DRY. This is a method I've found works best for me and reduced the compiled file size significantly. If you'd prefer to use a different method feel free to do so.
+Is intended to store all form styles where possible and use the SASS ```scss @extend``` method inside the WFFM partial files to keep the code DRY. This is a method I've found works best for me and reduced the compiled file size significantly. 
+
+If you'd prefer to use a different method feel free to do so.
 
 ```scss
 // _form-patterns partial
