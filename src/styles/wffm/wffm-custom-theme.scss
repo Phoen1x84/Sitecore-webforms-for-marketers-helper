@@ -1,6 +1,13 @@
 // placeholders
 @import "placeholder/_form-patterns";
 
+// global 
+@import "global/_buttons";
+@import "global/_footer";
+@import "global/_headings";
+@import "global/_introduction";
+@import "global/validation-summary";
+
 // Simple Types
 @import "simple-types/_checkbox";
 @import "simple-types/_date-picker";
