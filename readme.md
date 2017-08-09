@@ -43,11 +43,19 @@ complex-types
   _captcha
   _credit-card
   _password-confirmation
+global
+  _buttons
+  _footer
+  _headings
+  _introduction
+  _validation-summary
 list-types
   _checkbox-list
   _drop-list
   _list-box
   _radio-list
+placeholder
+  _form-patterns
 simple-types
   _checkbox
   _date-picker
@@ -60,6 +68,7 @@ simple-types
   _single-line-text
   _sms-mms-telephone
   _telephone
+wffm-custom-theme
 ```
 
 ### Basic Examples
@@ -97,6 +106,16 @@ Here is a basic example of what is provided in sass partials
 The main sass file that is compiled
 
 ``` scss
+// placeholders
+@import "placeholder/_form-patterns";
+
+// global 
+@import "global/_buttons";
+@import "global/_footer";
+@import "global/_headings";
+@import "global/_introduction";
+@import "global/validation-summary";
+
 // Simple Types
 @import "simple-types/_checkbox";
 @import "simple-types/_date-picker";
